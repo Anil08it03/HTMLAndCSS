@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Simple Table Using HTML and CSS</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-csale=1.0">
+	<style type="text/css">
+		table
+		{
+			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+			text-transform: lowercase;
+			max-width:100%;
+			height: auto;
+			border-collapse: collapse;
+			margin: auto;
+		}
+		#t th
+		{
+			padding-top:12px;
+			padding-bottom: :12px;
+			background-color:green;
+			text-align: left;
+			color:white;
+		}
+		#t td,#t th
+		{
+			border:1px solid #ddd;
+			padding:8px;
+		}
+		#t tr:nth-child(even)
+		{
+			background-color: #f2f2f2;
+		}
+		#t tr:hover
+		{
+			background-color: #ddd;
+			/*color:white;*/
+		}
+		caption
+		{
+			caption-side: bottom;
+		}
+	</style>
+</head>
+<body>
+<table id="t">
+	<caption>Table: Company list</caption>
+	<tr>
+		<th>Company</th>
+		<th>Contact</th>
+		<th>Country</th>
+	</tr>
+	<tr>
+		<td>TCS</td>
+		<td>HR</td>
+		<td>INDIA</td>
+	</tr>
+	<tr>
+		<td>WIPRO</td>
+		<td>Salem</td>
+		<td>CHINA</td>
+	</tr>
+	<tr>
+		<td>INFOSYS</td>
+		<td>HEMA</td>
+		<td>HONKONG</td>
+	</tr>
+	<tr>
+		<td>CAPEGIMINI</td>
+		<td>SONAM</td>
+		<td>USA</td>
+	</tr>
+	<tr>
+		<td>TECH MAHINDRA</td>
+		<td>ARUP</td>
+		<td>INDIA</td>
+	</tr>
+	<tr>
+		<td>IBM</td>
+		<td>RUPESH</td>
+		<td>USA</td>
+	</tr>
+</table>
+</body>
+</html>
